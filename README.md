@@ -5,7 +5,7 @@ This package helps to ping working IPFS gateway and returns it. Initially, it wa
 ## Set up
 
 ``` 
-  npm i ping-ipfs-gateway
+npm i ping-ipfs-gateway
 ```
 
 ```
@@ -14,7 +14,7 @@ const pingIPFS = require('ping-ipfs-gateway')
 
 ## How to use
 
-Use a a simple function. 
+Use as a simple function. 
 
 ```
 pingIPFS()
@@ -24,7 +24,7 @@ pingIPFS()
 
 There are three function parameters: 
 
-1. **Config** - config with all possible gateways. Optional parameter.
+1. **CONFIG** - config with all possible gateways. Optional parameter.
 
 Default config: 
 
@@ -40,17 +40,12 @@ Default config:
 ]
 ```
 
-And use it like that: 
 
-```
-  pingIPFS(your-own-config)
-```
-
-2. **Default source** to use in IPFS request and to make sure currently tested gateway works. Optional parameter.
+2. **DEFAULT SOURCE** to use in IPFS request and to make sure currently tested gateway works. Optional parameter.
 
 Default - `QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa`
 
-3. **Timeout**. If you want to specify request timeout. Optional parameter.
+3. **TIMEOUT**. If you want to specify request timeout. Optional parameter.
 
 Default - `8000`
 
