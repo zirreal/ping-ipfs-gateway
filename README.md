@@ -43,7 +43,7 @@ Default config:
 
 2. **DEFAULT SOURCE** to use in IPFS request and to make sure currently tested gateway works. Optional parameter.
 
-Default - `QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa`
+Default - `QmXCFbH7taH5WDBZa9MiFp4oVBFz2rtUupWCNTib69FP1Y`
 
 3. **TIMEOUT**. If you want to specify request timeout. Optional parameter.
 

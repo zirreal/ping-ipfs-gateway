@@ -8,7 +8,7 @@ async function pingIpfsGateway(
 		'https://gw.crust-gateway.xyz/ipfs/',
 		'https://gw.crust-gateway.cc/ipfs/'
 	], 
-	defaultVideo='QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa', 
+	defaultVideo='QmXCFbH7taH5WDBZa9MiFp4oVBFz2rtUupWCNTib69FP1Y', 
 	timeout=8000
 ) {
 
